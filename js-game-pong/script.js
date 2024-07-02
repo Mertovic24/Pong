@@ -1,4 +1,3 @@
-// Global Variables
 var DIRECTION = {
     IDLE: 0,
     UP: 1,
@@ -25,7 +24,7 @@ var Ball = {
     }
 };
  
-// The ai object (The two lines that move up and down)
+// The ai object  (The two lines that move up and down)
 var Ai = {
     new: function (side) {
         return {
